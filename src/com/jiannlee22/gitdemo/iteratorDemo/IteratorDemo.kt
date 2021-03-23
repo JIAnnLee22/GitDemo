@@ -16,7 +16,7 @@ class IteratorDemo {
 }
 
 fun main() {
-	val bytes = intArrayOf(3, 2, 2, 3, 2, 2, 3, 2, 2)
+	val bytes = intArrayOf(3, 2, 2, 3, 2, 2, 3, 2, 2).toMutableList()
 	
 	val li = bytes.listIterator()
 	while (li.hasNext()) {
